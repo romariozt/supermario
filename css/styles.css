@@ -1,0 +1,116 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* SECTION */
+
+.section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 200px;
+    justify-content:space-between
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FBE9BA;
+    max-width: 370;
+}
+
+.line {
+    width: 375px;
+    height: 0px;
+    left: 500px;
+    top: 350px;
+    border: 1px solid #000000;
+}
+
+.work {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #D2743F;
+}
+
+.aboutme {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FBE9BA;
+    max-width: 375px;
+}
+
+.button {
+    width: 110px;
+    height: 40px;
+    left: 500px;
+    top: 505px;
+    background: #fbddba;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 0;
+}
+
+.button:hover {
+    background: #63f350;
+    transition: 2s;
+}
+
+
+
+/* SOCIALNET */
+
+.social-icons li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 25px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+
+/* FOOTER */
+
+
